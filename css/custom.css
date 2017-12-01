@@ -83,11 +83,7 @@ i {
 
 #header {
   border: none;
-  padding: 5% 5% 10% 5%;
-}
-
-.col-12 {
-  background: lightgrey;
+  padding: 10% 5% 10% 5%;
 }
 
 .row {
@@ -104,13 +100,14 @@ i {
   width: 100%;
   height: 100%;
   border-right: none;
+  /*display: inline-block;*/
 }
 
 #text-red, #text-brick, #text-snowydrive, #text-bridge {
   margin: 0;
   padding-right: 1%;
   width: 100%;
-  /*border: 1px lightgrey solid;*/
+  /*display: inline-block;*/
   border-left: none;
 }
 
@@ -118,6 +115,8 @@ i {
 .card {
   border: none;
   background: white;
+  /*min-height: 100%;
+  margin: 5%;*/
 }
 
 .card-img-top {

@@ -1,0 +1,35 @@
+.navbar  {
+  padding: 0;
+  width: 100%;
+  position: relative;
+}
+
+button {
+  position: relative;
+}
+
+.navbar-toggler {
+  border: none;
+  font-weight: bolder;
+  color: #757575;
+}
+
+
+.navbar-brand {
+  position: absolute;
+  left: 13%;
+
+}
+
+a.navbar-brand span {
+  padding: 3%;
+}
+
+.pacific {
+  color: #a5a5a5;
+}
+
+i {
+  color: #a5a5a5;
+  padding: 3%;
+}

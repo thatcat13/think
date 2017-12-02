@@ -15,12 +15,12 @@
 }
 
 .float-right {
-  padding-top: 25%;
+  padding-top: 15%;
   text-align: center;
 }
 
 footer {
-  padding: 4% 0%;
+  padding: 5% 0%;
 }
 
 
@@ -143,6 +143,12 @@ p {
 @media screen and (min-width: 576px) {
   .card-block h3 {
     font-size: 2.5em;
+  }
+
+  #red, #brick, #snowydrive, #bridge {
+    padding: 5%;
+    height: 250px;
+    width: 100%;
   }
 
 

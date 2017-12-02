@@ -6,16 +6,13 @@
   border-radius: 0 !important;
 }
 
-#img-bricktest {
+#img-red, #img-brick, #img-snowydrive, #img-bridge {
   padding: 0;
-
 }
 
-#bricktest {
+#red, #brick, #snowydrive, #bridge {
   padding: 5%;
 }
-
-
 
 .float-right {
   padding-top: 25%;
@@ -110,23 +107,9 @@ i {
   box-shadow: 15px 2px 30px #888888;
 }
 
-#img-red, #img-brick, #img-snowydrive, #img-bridge{
-  margin: 0;
+p {
   padding: 5%;
-  width: 100%;
-  height: 100%;
-  border-right: none;
-  /*display: inline-block;*/
 }
-
-#text-red, #text-brick, #text-snowydrive, #text-bridge {
-  margin: 0;
-  padding-right: 1%;
-  width: 100%;
-  /*display: inline-block;*/
-  border-left: none;
-}
-
 
 .card {
   border: none;
@@ -157,5 +140,6 @@ i {
   .card-block h3 {
     font-size: 2.5em;
   }
+
 
 }

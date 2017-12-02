@@ -126,6 +126,14 @@ i {
   padding: 10% 5% 10% 5%;
 }
 
+h5 {
+  padding: 5% 0%;
+}
+
+button {
+  width: 100px;
+}
+
 .row {
   margin: 5% 2%;
 }
@@ -158,11 +166,20 @@ p {
   line-height: 1.25em;
 }
 
-#main-footer {
+#main-footer-img {
   color: white;
   font-size: 20px;
 }
 
+#topic1, #topic2, #topic3 {
+  list-style: none;
+  padding: 0;
+  margin: 0
+}
+
+#topic1 li, #topic2 li, #topic3 li {
+  padding: 1%;
+}
 
 /*--media query--*/
 @media screen and (min-width: 576px) {
@@ -175,6 +192,4 @@ p {
     height: 250px;
     width: 100%;
   }
-
-
 }

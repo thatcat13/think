@@ -72,11 +72,11 @@ i {
   position: relative;
 }
 
-.jumbo-img {
+.img-fluid {
   margin: 2%;
   padding-right: 5%;
   width: 100%;
-  height: 100%;
+  height: auto;
   position: relative;
 }
 
@@ -84,7 +84,6 @@ i {
   position: absolute;
   bottom: 7%;
   left: 5%;
-
 }
 
 #main-caption p {
@@ -101,6 +100,11 @@ i {
 #header {
   border: none;
   padding: 10% 5% 10% 5%;
+}
+
+#tree {
+  width: 100%;
+  height: auto;
 }
 
 .row {

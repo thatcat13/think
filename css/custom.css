@@ -14,6 +14,15 @@ body {
   padding: 5%;
 }
 
+.header {
+  padding: 0;
+  margin-bottom: 5%;
+}
+
+.header img {
+    box-shadow: 1px 0px 15px #888888;
+}
+
 #red, #brick, #snowydrive, #bridge {
   padding: 0;
 }
@@ -21,31 +30,29 @@ body {
 #img-red, #img-brick, #img-snowydrive, #img-bridge {
   padding: 5%;
   object-fit: cover;
-}
-
-.float-right {
-  text-align: left;
+  min-height: 100%;
 }
 
 .left {
   border-top: 1px solid lightgray;
   border-bottom: 1px solid lightgray;
   border-left: 1px solid lightgray;
-  box-shadow: -10px 1px 10px #888888;
+  box-shadow: -2px 0px 10px #888888;
 }
 
 .right {
   border-top: 1px solid lightgray;
   border-bottom: 1px solid lightgray;
   border-right: 1px solid lightgray;
+  box-shadow: 2px 0px 10px #888888;
 }
 
 #main-caption p {
-  font-size: 2em;
+  font-size: 1.25em;
   color: white;
   font-weight: bold;
   padding: 4%;
-  background: linear-gradient(to right, rgba(165, 165, 165, 0.9), rgba(165, 165, 165, 0.1));
+  background: linear-gradient(to right, rgba(165, 165, 165, 0.5), rgba(165, 165, 165, 0.1));
   border-radius: 15px;
   margin-right: 2%;
   line-height: 1.25em;
@@ -53,7 +60,7 @@ body {
 
 #main-footer-img {
   color: white;
-  font-size: 20px;
+  font-size: 13px;
 }
 
 .container-fluid {

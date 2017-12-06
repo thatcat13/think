@@ -143,8 +143,9 @@ p {
   }
 }
 
-@media screen and (min-width: 1450px) {
+@media screen and (min-width: 1350px) {
   .main-container {
+    width: 1350px;
     margin: 0 auto;
   }
 }
